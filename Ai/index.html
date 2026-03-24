@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SHADOW | AI Breaker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>SHADOW <span>AUDITOR</span></h1>
+        <p>Advanced AI Stress Testing Hub</p>
+    </div>
+
+    <div class="admin-panel">
+        <input type="text" id="pTitle" placeholder="Nama Prompt (e.g. DAN 10.0)">
+        <textarea id="pContent" placeholder="Isi Prompt Jailbreak..."></textarea>
+        <button class="inject-btn" onclick="submitNewPrompt()">🔥 INJECT PROMPT</button>
+    </div>
+
+    <div id="prompt-container">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
